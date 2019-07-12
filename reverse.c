@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
-void rev()
+void reverse()
 {
    char arr[100];
  
