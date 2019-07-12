@@ -3,13 +3,20 @@
  
 void reverse()
 {
-   char arr[100];
+  	char Str[100], RevStr[100];
+  	int i, j, len;
  
-   printf("Enter a string to reverse\n");
-   gets(arr);
+  	printf("\n Please Enter any String :  ");
+  	
+  	j = 0;
+  	len = strlen(Str);
  
-   strrev(arr);
+  	for (i = len - 1; i >= 0; i--)
+  	{
+  		RevStr[j++] = Str[i];
+  	}
+  	RevStr[i] = '\0';
  
-   printf("Reverse of the string is \n%s\n", arr);
- 
+  	printf("\n String after Reversing = %s", RevStr);
+  	
 }
