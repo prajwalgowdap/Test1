@@ -8,3 +8,6 @@ palindrome.o:palindrome.c
 	gcc -c palindrome.c
 main.o:main.c
 	gcc -c main.c
+reverse.o:reverse.c
+        gcc -c reverse.c
+
