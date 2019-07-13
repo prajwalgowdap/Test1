@@ -1,4 +1,4 @@
-ABC.exe:big.o fact.o palindrome.o reverse.o main.o prime.0
+ABC.exe:big.o fact.o palindrome.o reverse.o main.o prime.o
 	gcc -o ABC.exe big.o fact.o palindrome.o reverse.o main.o prime.o
 big.o:big.c
 	gcc -c big.c
