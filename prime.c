@@ -19,6 +19,6 @@ void prime()
     if (c != n)
       printf("Not prime.\n");
      else
-       printf("Prime number.\n");
+       printf("Prime number.\n\n");
   }
 }
